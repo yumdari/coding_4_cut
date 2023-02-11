@@ -96,6 +96,18 @@
             width: 100%;
             height: 100%;
         }
+
+       /* opacity : 투명도를 의미해요! 0% 투명하다. 즉 다 보인다. */
+        .showText {
+            opacity: 0;
+        }
+
+        /* opacity : 투명도를 의미해요! 100% 투명하다. 즉 안보인다. */
+        /* transition : 나타날 때 0.5초동안 천천히 나타나는 효과를 주라는 의미에요 */
+        .hideText {
+            opacity: 1;
+        transition: opacity 0.5s linear;
+        }
     </style>
 </head>
 <body>
