@@ -8,19 +8,25 @@
     <style>
        /* 이서윤체 폰트 적용을 위한 코드 */
        @font-face {
-        font-family: "LeeSeoyun";
-        src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff")
+        font-family : "LeeSeoyun";
+        src : url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff")
           format("woff");
-        font-weight: normal;
-        font-style: normal;
+        font-weight : normal;
+        font-style : normal;
       }
         /* body태그 자체에 css 요소 부여 */
         body {
             font-family: "LeeSeoyun";
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            background-image: url("./background.png");
+            margin : 0;
+            display : flex;
+            justify-content : center;
+            background-image : url("./background.png");
+        }
+        /* 너비는 390픽셀이구, 배경색이 좀 필요하고 부모(body) 높이 전체를 쓸거야 */
+        .container {
+            width : 390px;
+            background-color : #ff9d73;
+            height : 100%;
         }
     </style>
 </head>
